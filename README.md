@@ -42,3 +42,4 @@ $ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/my_robot/build
 $ cd /home/workspace/my_robot/world
 $ gazebo myworld
 ```
+file:///home/lamia/Pictures/Screenshot%20from%202025-12-08%2000-22-56.png<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b30dfb85-143e-4f5e-ad5f-e393d73a7717" />
