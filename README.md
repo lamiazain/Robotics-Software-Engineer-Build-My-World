@@ -2,7 +2,7 @@
 
 - In this project, a design for a simple robot is provided, along with the design of the Gazebo world in which it will operate.
 
-- A script is written (hello.cpp) to print a welcoming message upon launching the project.  
+- A script is written (hello.cpp) to print a welcoming message in terminal upon launching the world.  
 
 - This project was implemented using Ubuntu 18.04.
 
