@@ -37,8 +37,7 @@ $ cmake ..
 $ make
 $ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/my_robot/build
 ```
-3. Source the setup.bash file: `$ source devel/setup.bash`
-4. Launch the world file in Gazebo to load both the world and the plugin:
+3. Launch the world file in Gazebo to load both the world and the plugin:
 ```
 $ cd /home/workspace/my_robot/world
 $ gazebo myworld
