@@ -1,10 +1,10 @@
 # Robotics-Software-Engineer || Build-My-World
 
-In this project, a design of a simple robot is provided with the design of the environment.
+- In this project, a design for a simple robot is provided, along with the design of the Gazebo world in which it will operate.
 
-A script is written (hello.cpp) to print a welcoming message upon launching the project.  
+- A script is written (hello.cpp) to print a welcoming message upon launching the project.  
 
-This project was implemented using Ubuntu 18.04.
+- This project was implemented using Ubuntu 18.04.
 
 ## Project structure
 ```
