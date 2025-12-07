@@ -43,6 +43,7 @@ $ cd /home/workspace/my_robot/world
 $ gazebo myworld
 ```
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b30dfb85-143e-4f5e-ad5f-e393d73a7717" />
+
 ### Troubleshooting
 
 In case your plugins failed to load, you'll have to check and troubleshoot your error. The best way to troubleshoot errors with Gazebo is to launch it with the verbose as such:
