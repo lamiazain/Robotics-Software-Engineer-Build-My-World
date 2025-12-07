@@ -7,6 +7,7 @@ A script is written (hello.cpp) to print a welcoming message upon launching the 
 This project was implemented using Ubuntu 18.04.
 
 ## Project structure
+```
 my_robot/                             # Build My World Project 
 ├── model/                            # Model files 
 │   ├── building/
@@ -23,6 +24,7 @@ my_robot/                             # Build My World Project
 │   ├── myworld.world
 │
 └── CMakeLists.txt                    # CMake configuration and library linking
+```
 ## Steps to run the project:
 
 1. Got to the workspace: `$ cd workspace`
