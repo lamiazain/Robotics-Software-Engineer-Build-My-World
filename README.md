@@ -27,7 +27,19 @@ my_robot/                             # Build My World Project
 ```
 ## Steps to run the project:
 
-1. Got to the workspace: `$ cd workspace`
-2. Build the package: `$ catkin_make`
-3. Source the setup.bash file: `$ source setup.bash`
-4. 
+1. Got to the my_robot directory: `$ cd workspace/my_robot`.
+2.  Create a build directory and compile the code:
+
+```
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/my_robot/build
+```
+3. Source the setup.bash file: `$ source devel/setup.bash`
+4. Launch the world file in Gazebo to load both the world and the plugin:
+```
+$ cd /home/workspace/my_robot/world
+$ gazebo myworld
+```
